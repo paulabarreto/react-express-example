@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 import React from 'react';
 import { ConnectedTaskList } from './TaskList';
 
-export const Dashboard = ({groups})=>(
+const Dashboard = ({groups})=>(
     <div>
         <h2>Dashboard</h2>
         {groups.map(group=>(
